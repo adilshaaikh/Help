@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "744017680030",
+    "firebase_url": "https://help-557b7.firebaseio.com",
+    "project_id": "help-557b7",
+    "storage_bucket": "help-557b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744017680030:android:857906b7a7c7b06b",
+        "android_client_info": {
+          "package_name": "com.example.adil.help"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744017680030-ml14o7s84utm3kk5tdpdqfoo5a3sh9at.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXGmb3goKcbfKWutqHQ0YWUlMFJDWoLxs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

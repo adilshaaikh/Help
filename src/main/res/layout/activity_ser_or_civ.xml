@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/grad"
+    android:layout_height="match_parent"
+    tools:context=".ser_or_civ">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+
+    <TextView
+        android:id="@+id/showemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="154dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/services_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="43dp"
+        android:background="@drawable/grad"
+        android:onClick="btnregistration"
+        android:text="Service" />
+
+    <Button
+        android:id="@+id/civilian_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/services_button"
+        android:layout_toEndOf="@+id/imageView4"
+        android:background="@drawable/grad"
+        android:onClick="egistration"
+        android:text="Civilian" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/services_button"
+        android:layout_centerHorizontal="true"
+        android:text="OR"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="216dp"
+        android:text="Another Information to click here"
+        android:textSize="24dp" />
+
+
+</RelativeLayout>
